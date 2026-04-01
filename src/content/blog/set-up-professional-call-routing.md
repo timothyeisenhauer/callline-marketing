@@ -14,12 +14,9 @@ Here's how to go from zero to fully operational business phone in under 10 minut
 
 ## Step 1: Get Your Number (2 minutes)
 
-After signing up, you'll pick a phone number. You have two options:
+After signing up, you'll pick a phone number. Search by area code to get a local number that matches your market. Toll-free numbers are also available.
 
-- **Buy a new number:** Search by area code to get a local number that matches your market. Toll-free numbers are also available.
-- **Port your existing number:** If customers already know your number, start the porting process. You can use a temporary number while the port completes (usually 1-2 weeks).
-
-Most businesses go with a new local number and are making calls within minutes.
+Most businesses have a number and are making calls within minutes.
 
 ## Step 2: Add Your Forwarding Numbers (1 minute)
 
