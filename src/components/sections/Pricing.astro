@@ -55,7 +55,7 @@ const { title, subtitle, tiers } = Astro.props;
 
 <section class="py-20 px-6" aria-labelledby="pricing-heading">
   <div class="container max-w-5xl mx-auto">
-    <div class="flex flex-col items-center space-y-4 text-center" data-animate>
+    <div class="flex flex-col items-center space-y-4 text-center">
       <h2 id="pricing-heading" class="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">
         {title}
       </h2>
@@ -68,8 +68,8 @@ const { title, subtitle, tiers } = Astro.props;
     <div class="grid gap-6 mt-12 md:grid-cols-2 lg:grid-cols-3">
     {tiers.map((tier, index) => (
       <div
-        data-animate
-        data-delay={String(Math.min(index + 1, 5))}
+       
+       
         class:list={[
           "flex flex-col rounded-xl border bg-card p-6",
           tier.highlighted && "border-primary shadow-2xl shadow-primary/20 lg:scale-105",

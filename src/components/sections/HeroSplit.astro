@@ -37,7 +37,7 @@ const { title, subtitle, primaryCta, secondaryCta, tagline, image } = Astro.prop
   <div class="container max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 
     <!-- Left column: text content -->
-    <div class="flex flex-col gap-6" data-animate="slide-left">
+    <div class="flex flex-col gap-6"="slide-left">
 
       <!-- Tagline pill -->
       {tagline && (
@@ -84,7 +84,7 @@ const { title, subtitle, primaryCta, secondaryCta, tagline, image } = Astro.prop
     </div>
 
     <!-- Right column: image or decorative mock-up -->
-    <div data-animate="slide-right" data-delay="2">
+    <div="slide-right" data-delay="2">
       {image ? (
         <!-- Real image -->
         <img
