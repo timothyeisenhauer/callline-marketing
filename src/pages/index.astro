@@ -1,0 +1,168 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Features from "@/components/sections/Features.astro";
+import Pricing from "@/components/sections/Pricing.astro";
+import FAQ from "@/components/sections/FAQ.astro";
+import CTA from "@/components/sections/CTA.astro";
+import Stats from "@/components/sections/Stats.astro";
+
+const features = [
+  {
+    title: "Smart Call Routing",
+    description: "Ring multiple phones simultaneously or sequentially. Set business hours so after-hours calls go straight to voicemail.",
+    icon: "zap",
+  },
+  {
+    title: "Voicemail with AI Summary",
+    description: "Every voicemail lands in your dashboard with playback, transcript, and an AI-generated summary so you can follow up faster.",
+    icon: "shield",
+  },
+  {
+    title: "SMS Inbox",
+    description: "Send and receive texts from your business number. Keep every customer conversation in one place alongside calls and voicemails.",
+    icon: "globe",
+  },
+  {
+    title: "Call Recording",
+    description: "Record calls with automatic compliance disclosure. Play back, download, and review important conversations from your dashboard.",
+    icon: "lock",
+  },
+  {
+    title: "Custom Greetings & IVR",
+    description: "Record your own greeting or use text-to-speech. Set up a phone menu so callers reach the right person every time.",
+    icon: "users",
+  },
+  {
+    title: "Buy or Port Your Number",
+    description: "Get a local or toll-free number in minutes, or bring the number your customers already know with our built-in porting workflow.",
+    icon: "chart",
+  },
+];
+
+const pricingTiers = [
+  {
+    name: "Starter",
+    price: "$39",
+    description: "Everything a solo operator needs to sound professional.",
+    features: [
+      "1 business number",
+      "1 user seat",
+      "300 call minutes",
+      "500 SMS segments",
+      "Voicemail transcription",
+      "Basic analytics",
+    ],
+    cta: { href: "https://app.callline.app/auth/signup", label: "Start free trial" },
+  },
+  {
+    name: "Growth",
+    price: "$99",
+    description: "More volume, IVR, and visibility for growing teams.",
+    features: [
+      "3 business numbers",
+      "3 user seats",
+      "1,500 call minutes",
+      "3,000 SMS segments",
+      "IVR phone menu",
+      "Call recording",
+      "AI weekly insights",
+    ],
+    cta: { href: "https://app.callline.app/auth/signup", label: "Start free trial" },
+    highlighted: true,
+  },
+  {
+    name: "Pro",
+    price: "$249",
+    description: "High-volume operations with priority support.",
+    features: [
+      "10 business numbers",
+      "10 user seats",
+      "6,000 call minutes",
+      "12,000 SMS segments",
+      "Priority support",
+      "Advanced exports",
+      "Admin controls",
+    ],
+    cta: { href: "https://app.callline.app/auth/signup", label: "Start free trial" },
+  },
+];
+
+const faqs = [
+  {
+    question: "Can I keep my existing business number?",
+    answer: "Yes. You can port an existing number into CallLine or start with a new local or toll-free number. Porting timing depends on your current carrier, but new numbers are available immediately.",
+  },
+  {
+    question: "What happens when nobody answers?",
+    answer: "CallLine follows your ring strategy — ring one phone at a time or all at once. If nobody picks up, the call goes to voicemail. You get the recording, transcript, and AI summary in your dashboard.",
+  },
+  {
+    question: "Can I text from my business number?",
+    answer: "Yes. Inbound and outbound SMS are included on every plan. Messages stay in the same dashboard as your calls and voicemails.",
+  },
+  {
+    question: "How quickly can I get started?",
+    answer: "If you're buying a new number, you can be up and running in under 10 minutes. If you're porting an existing number, timing depends on the losing carrier — typically 1-2 weeks.",
+  },
+  {
+    question: "Is there a contract or commitment?",
+    answer: "No. All plans are month-to-month with a 14-day free trial. Cancel anytime from your dashboard.",
+  },
+  {
+    question: "What happens if I go over my plan limits?",
+    answer: "Overage is simple and usage-based. Calls are $0.012 per minute, SMS is $0.015 per segment. No surprises — you can track usage in real time from your dashboard.",
+  },
+];
+---
+
+<BaseLayout
+  title="CallLine — Business Phone, SMS, Voicemail & Call Routing"
+  description="CallLine gives small businesses a real business number, smart call routing, voicemail transcription, SMS inbox, and clear monthly pricing."
+>
+  <Hero
+    title="Stop losing business to missed calls."
+    subtitle="CallLine gives your team a real business number, smart call routing, voicemail transcription, and SMS inbox — all in <mark>one simple dashboard</mark>. No PBX complexity. No carrier chaos."
+    primaryCta={{ href: "https://app.callline.app/auth/signup", label: "Start your 14-day trial" }}
+    secondaryCta={{ href: "#pricing", label: "See pricing" }}
+  />
+
+  <div class="section-inverted py-8">
+    <Stats
+      stats={[
+        { value: "< 10 min", label: "Setup Time", description: "Get a number and start routing calls" },
+        { value: "14 days", label: "Free Trial", description: "No credit card required" },
+        { value: "99.9%", label: "Uptime", description: "Built on enterprise infrastructure" },
+        { value: "$39", label: "Starting At", description: "Per month, everything included" },
+      ]}
+    />
+  </div>
+
+  <div id="features">
+    <Features
+      title="Everything your business phone needs"
+      subtitle="Built for teams that want every call handled professionally — without duct-taping together forwarding rules, voicemail apps, and texting tools."
+      features={features}
+    />
+  </div>
+
+  <div id="pricing">
+    <Pricing
+      title="Clear monthly plans. Real included usage."
+      subtitle="Pick the plan that matches your volume today. Upgrade when you need more."
+      tiers={pricingTiers}
+    />
+  </div>
+
+  <FAQ
+    title="Frequently asked questions"
+    subtitle="Everything you need to know before you switch."
+    faqs={faqs}
+  />
+
+  <CTA
+    title="Ready to sound professional from the first ring?"
+    description="Start your 14-day free trial. Get a business number, set up call routing, and start receiving calls in under 10 minutes."
+    cta={{ href: "https://app.callline.app/auth/signup", label: "Start free trial" }}
+  />
+</BaseLayout>
