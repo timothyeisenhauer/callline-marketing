@@ -399,12 +399,12 @@
     {
       "name": "BaseLayout",
       "file": "src/layouts/BaseLayout.astro",
-      "description": "Default layout for content-focused pages. Includes Header, Footer, SEO meta tags (OpenGraph + Twitter Cards), ClientRouter for view transitions, ThemeScript for dark mode persistence, and Vercel Analytics. Content is boxed (max-w-5xl via container).",
+      "description": "Default layout for content-focused pages. Includes Header, Footer, SEO meta tags (OpenGraph + Twitter Cards), ThemeScript for dark mode persistence, and Vercel Analytics. Content is boxed (max-w-5xl via container).",
       "props": {
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '| AstroDeck' automatically"
+          "description": "Page title — appended with '- CallLine' automatically"
         },
         "description": {
           "type": "string",
@@ -446,7 +446,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '| AstroDeck' automatically"
+          "description": "Page title — appended with '- CallLine' automatically"
         },
         "description": {
           "type": "string",
@@ -472,7 +472,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '| AstroDeck' automatically"
+          "description": "Page title — appended with '- CallLine' automatically"
         },
         "description": {
           "type": "string",
@@ -504,7 +504,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '| AstroDeck' automatically"
+          "description": "Page title — appended with '- CallLine' automatically"
         },
         "description": {
           "type": "string",

@@ -7,7 +7,6 @@
  *
  * Features:
  * - Dark mode support with theme persistence
- * - View transitions for smooth page navigation
  * - Vercel Analytics integration
  * - Semantic HTML structure
  * - Complete SEO with OpenGraph and Twitter Cards
@@ -29,7 +28,6 @@
  * Use for: Blog posts, about pages, documentation, content pages
  * Don't use for: Full-width showcases (use FullWidthLayout), auth pages (use AuthLayout)
  */
-import { ClientRouter } from "astro:transitions";
 import "@/styles/globals.css";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
@@ -76,7 +74,6 @@ const fullTitle = `${title} - CallLine`;
       publishedTime={publishedTime}
       author={author}
     />
-    <ClientRouter />
     <ThemeScript />
   </head>
   <body class="min-h-screen flex flex-col antialiased">

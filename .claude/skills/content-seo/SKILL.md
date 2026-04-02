@@ -172,7 +172,7 @@ These rules always apply — even under time pressure, even when "SEO isn't that
 
 - **Every page needs a meta description.** "It's just an internal page" — Google indexes everything that's publicly accessible.
 - **Every page needs exactly one `<h1>`.** Zero or multiple h1s destroy heading hierarchy and cost SEO points.
-- **No duplicate titles.** "AstroDeck ... | AstroDeck" happens when the page title includes the brand — the layout appends it automatically.
+- **No duplicate titles.** "AstroDeck ... - CallLine" happens when the page title includes the brand — the layout appends it automatically.
 - **Canonical URL is mandatory.** Even for "simple" pages. Without canonical, crawlers create duplicate content issues.
 - **Don't guess structured data.** JSON-LD schema must be valid. Better to omit than to ship invalid schema — Google penalizes invalid markup.
 
