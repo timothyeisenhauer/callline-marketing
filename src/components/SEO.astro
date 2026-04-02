@@ -35,16 +35,16 @@ const {
   image = '/cover.png',
   type = 'website',
   publishedTime,
-  author = 'CallLine Team',
+  author = 'Telzee Team',
   noindex = false,
 } = Astro.props;
 
 // Fallback for dev server when Astro.site might be undefined
-const siteUrl = Astro.site ?? new URL('https://callline.app');
+const siteUrl = Astro.site ?? new URL('https://telzee.app');
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 const socialImageURL = new URL(image, siteUrl);
 
-const siteName = 'CallLine';
+const siteName = 'Telzee';
 ---
 
 <!-- Primary Meta Tags -->
@@ -84,4 +84,4 @@ const siteName = 'CallLine';
 
 <!-- Sitemap & RSS -->
 <link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="alternate" type="application/rss+xml" title="CallLine Blog RSS Feed" href="/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="Telzee Blog RSS Feed" href="/rss.xml" />

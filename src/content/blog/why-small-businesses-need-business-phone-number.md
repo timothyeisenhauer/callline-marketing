@@ -2,7 +2,7 @@
 title: "Why Small Businesses Need a Dedicated Business Phone Number"
 description: "Using your personal cell for business calls costs you credibility and customers. Here's why a dedicated business number changes everything."
 pubDate: 2026-04-01
-author: "CallLine Team"
+author: "Telzee Team"
 tags: ["business phone", "small business", "tips"]
 ---
 
@@ -44,4 +44,4 @@ You get a real number, professional voicemail, SMS, call routing, and a dashboar
 
 A dedicated business number isn't a luxury. It's basic infrastructure, like having a website or business cards. If you want customers to take you seriously, give them a reason to.
 
-[Start your 3-day free trial →](https://app.callline.app/auth/signup)
+[Start your 3-day free trial →](https://app.telzee.app/auth/signup)

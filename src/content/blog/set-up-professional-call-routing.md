@@ -2,7 +2,7 @@
 title: "How to Set Up Professional Call Routing in Under 10 Minutes"
 description: "A step-by-step guide to setting up call routing, business hours, voicemail, and professional greetings for your small business."
 pubDate: 2026-04-01
-author: "CallLine Team"
+author: "Telzee Team"
 tags: ["call routing", "setup guide", "how-to"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["call routing", "setup guide", "how-to"]
 
 Setting up a professional phone system used to mean calling your carrier, waiting on hold, navigating confusing menus, and probably still not getting what you wanted. Those days are over.
 
-Here's how to go from zero to fully operational business phone in under 10 minutes with CallLine.
+Here's how to go from zero to fully operational business phone in under 10 minutes with Telzee.
 
 ## Step 1: Get Your Number (2 minutes)
 
@@ -20,7 +20,7 @@ Most businesses have a number and are making calls within minutes.
 
 ## Step 2: Add Your Forwarding Numbers (1 minute)
 
-Tell CallLine which phones should ring when someone calls your business number. This could be:
+Tell Telzee which phones should ring when someone calls your business number. This could be:
 
 - Your cell phone
 - Your office manager's phone
@@ -48,7 +48,7 @@ No more getting woken up at 11pm by a customer who could've left a voicemail.
 
 You have two options for your greeting:
 
-- **Text-to-speech:** Type what you want the caller to hear, and CallLine generates a professional voice recording automatically.
+- **Text-to-speech:** Type what you want the caller to hear, and Telzee generates a professional voice recording automatically.
 - **Upload your own:** Record a greeting on your phone and upload the audio file.
 
 Set separate greetings for your main greeting, after-hours message, and voicemail prompt.
@@ -77,4 +77,4 @@ Total setup time: under 10 minutes. Total cost: starting at $39/month.
 
 Not bad for a phone system that makes your business sound like it's been doing this for years.
 
-[Get started now →](https://app.callline.app/auth/signup)
+[Get started now →](https://app.telzee.app/auth/signup)

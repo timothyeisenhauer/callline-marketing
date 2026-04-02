@@ -404,7 +404,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '- CallLine' automatically"
+          "description": "Page title — appended with '- Telzee' automatically"
         },
         "description": {
           "type": "string",
@@ -446,7 +446,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '- CallLine' automatically"
+          "description": "Page title — appended with '- Telzee' automatically"
         },
         "description": {
           "type": "string",
@@ -472,7 +472,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '- CallLine' automatically"
+          "description": "Page title — appended with '- Telzee' automatically"
         },
         "description": {
           "type": "string",
@@ -504,7 +504,7 @@
         "title": {
           "type": "string",
           "required": true,
-          "description": "Page title — appended with '- CallLine' automatically"
+          "description": "Page title — appended with '- Telzee' automatically"
         },
         "description": {
           "type": "string",

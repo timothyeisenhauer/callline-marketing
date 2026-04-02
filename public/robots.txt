@@ -1,8 +1,8 @@
-# robots.txt for CallLine
-# https://callline.app
+# robots.txt for Telzee
+# https://telzee.app
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://callline.app/sitemap-index.xml
+Sitemap: https://telzee.app/sitemap-index.xml

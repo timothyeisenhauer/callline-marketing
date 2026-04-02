@@ -2,7 +2,7 @@
 title: "5 Signs You're Losing Customers to Missed Calls"
 description: "Missed calls aren't just inconvenient — they're lost revenue. Here are five warning signs your phone setup is costing you business."
 pubDate: 2026-04-01
-author: "CallLine Team"
+author: "Telzee Team"
 tags: ["missed calls", "small business", "customer service"]
 ---
 
@@ -52,6 +52,6 @@ The fix isn't complicated. You need a phone system that:
 - **Tracks everything** so you know what's happening
 - **Sounds professional** even when nobody's available
 
-That's exactly what CallLine does, starting at $39/month with a 3-day free trial and a card required up front.
+That's exactly what Telzee does, starting at $39/month with a 3-day free trial and a card required up front.
 
-[Stop missing calls →](https://app.callline.app/auth/signup)
+[Stop missing calls →](https://app.telzee.app/auth/signup)
