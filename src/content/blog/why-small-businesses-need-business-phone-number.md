@@ -44,4 +44,4 @@ You get a real number, professional voicemail, SMS, call routing, and a dashboar
 
 A dedicated business number isn't a luxury. It's basic infrastructure, like having a website or business cards. If you want customers to take you seriously, give them a reason to.
 
-[Start your 14-day free trial →](https://app.callline.app/auth/signup)
+[Start your 3-day free trial →](https://app.callline.app/auth/signup)

@@ -52,6 +52,6 @@ The fix isn't complicated. You need a phone system that:
 - **Tracks everything** so you know what's happening
 - **Sounds professional** even when nobody's available
 
-That's exactly what CallLine does, starting at $39/month with a 14-day free trial.
+That's exactly what CallLine does, starting at $39/month with a 3-day free trial and a card required up front.
 
 [Stop missing calls →](https://app.callline.app/auth/signup)
